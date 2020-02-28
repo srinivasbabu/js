@@ -1,5 +1,5 @@
 let textObj = {
-strText: "Hello World thousand times!",
+    strText: "Hello World thousand times!",
     myFunc: function(){
         return this.strText;
     }
