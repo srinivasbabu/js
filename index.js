@@ -32,3 +32,13 @@ const rect1 = {
 }
 
 console.log(rect.area());
+
+function Circle(radius) {
+  console.log('this',this);
+  this.radius = radius;
+  this.area = function(){
+    return 3.1417 * ( this.radius * this.radius);
+  }	  
+}	
+cirleObj = new Circle(2);
+console.log(cirleObj.area());
